@@ -1,0 +1,58 @@
+<!-- name: String,
+  price: Number,
+  description: String,
+  features: Array,
+  category: String,
+  subcategory: String,
+  image: String,
+  rating: Number,
+  discount -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/products/create" method="post">
+      <legend>
+        ProductName <input type="text" placeholder="ProductName" name="name" />
+      </legend>
+      <legend>
+        Price <input type="number" placeholder="ProductName" name="price" />
+      </legend>
+      <legend>
+        description
+        <textarea
+          type="text"
+          placeholder="description"
+          name="description"
+        ></textarea>
+      </legend>
+      <legend>
+        category <input type="text" placeholder="category" name="category" />
+      </legend>
+      <legend>
+        features
+        <textarea type="text" placeholder="features" name="features"></textarea>
+      </legend>
+      <legend>
+        subcategory
+        <input type="text" placeholder="subcategory" name="subcategory" />
+      </legend>
+      <legend>
+        discount <input type="text" placeholder="discount" name="discount" />
+      </legend>
+      <legend>
+        image <input type="text" placeholder="image" name="image" />
+      </legend>
+      <legend>
+        rating <input type="text" placeholder="category" name="rating" />
+      </legend>
+
+      <input type="submit" value="submit" />
+    </form>
+  </body>
+</html>
